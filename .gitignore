@@ -1,0 +1,41 @@
+# Credenciais e variáveis de ambiente
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+credentials/
+secrets/
+
+# Bancos e backups
+backups/
+*.sql
+*.sql.gz
+*.dump
+*.backup
+
+# Logs e arquivos temporários
+logs/
+*.log
+tmp/
+temp/
+.cache/
+
+# Dependências
+node_modules/
+vendor/
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Credenciais operacionais específicas
+.htpasswd
+.pgpass*
+rclone.conf
+dashboard/config.js

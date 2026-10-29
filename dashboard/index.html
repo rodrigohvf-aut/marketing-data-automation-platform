@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Marketing Data Automation Platform</title>
+  <style>
+    :root{font-family:Inter,system-ui,sans-serif;color:#18233e;background:#f4f7fb;--blue:#164e9b;--teal:#0f9d8a;--line:#dce5f2}*{box-sizing:border-box}body{margin:0}.shell{max-width:1180px;margin:auto;padding:32px}.hero{background:linear-gradient(135deg,#102c63,#178eaa);color:#fff;border-radius:18px;padding:32px;margin-bottom:24px}.hero h1{margin:0 0 8px;font-size:clamp(28px,5vw,48px)}.hero p{margin:0;color:#c9f5ff;font-size:18px}.toolbar{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0}.toolbar button{border:1px solid var(--line);border-radius:9px;background:#fff;padding:10px 14px;color:var(--blue);font-weight:700}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;box-shadow:0 4px 16px #18315e0d}.card h2{margin:0 0 8px;font-size:18px}.card p{color:#60708c;line-height:1.5}.metric{font-size:32px;font-weight:800;color:var(--blue)}.note{background:#eef7f5;border-left:4px solid var(--teal);padding:14px 16px;border-radius:8px;color:#285f59}.footer{margin-top:24px;color:#687895;font-size:13px}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <h1>Marketing Data Automation Platform</h1>
+      <p>Sanitized portfolio dashboard for analytics, advertising, CRM, workflows, and AI-assisted insights.</p>
+    </section>
+    <div class="note">This public dashboard uses no production data. Connect a local API and synthetic dataset to populate the views.</div>
+    <div class="toolbar" aria-label="Dashboard filters"><button>Overview</button><button>Paid Media</button><button>Organic</button><button>CRM</button><button>Analytics</button><button>Operations</button></div>
+    <section class="grid">
+      <article class="card"><h2>Data ingestion</h2><div class="metric">—</div><p>Accounts and sources are loaded by scheduled workflows and normalized before persistence.</p></article>
+      <article class="card"><h2>Data quality</h2><div class="metric">—</div><p>Use validation, pagination, retry handling, and last-sync timestamps before publishing metrics.</p></article>
+      <article class="card"><h2>Workflow health</h2><div class="metric">—</div><p>Track execution status, errors, collection windows, and operational dependencies.</p></article>
+      <article class="card"><h2>Security boundary</h2><div class="metric">Local</div><p>Authentication and integration credentials are supplied at runtime and are never part of this repository.</p></article>
+    </section>
+    <section class="card" style="margin-top:16px"><h2>Architecture flow</h2><p>External sources → scheduled workflows → normalization and validation → analytical database → authenticated dashboard and insight views.</p></section>
+    <p class="footer">Portfolio source only · no customer identity, real accounts, domains, credentials, exports, or production metrics.</p>
+  </main>
+</body>
+</html>
