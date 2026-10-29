@@ -75,6 +75,16 @@ Sanitized architecture notes are available under `docs/architecture/`.
 
 The source copy does not claim production scale, uptime, conversion results, cost reduction, or performance benchmarks. Such claims require independent evidence and are intentionally not included.
 
+## Public reference code
+
+The repository includes small, safe reference implementations so the technical portfolio reflects the real implementation areas without exposing private deployment code:
+
+- `collectors/collect-vps-metrics.sh`: environment-configured host metric ingestion example;
+- `collectors/log-snapshot.py`: bounded log snapshot ingestion example;
+- `database/schema/001_observability_example.sql`: public collection-run and daily-metric schema example.
+
+These examples use localhost endpoints, synthetic labels, environment-provided tokens, and bounded inputs. They are not connected to a customer environment.
+
 ## Security design
 
 ### Secret separation
